@@ -1,4 +1,3 @@
-import React from 'react'
 import { RiBasketballLine } from "react-icons/ri";
 
 const Navbar = () => {
@@ -7,6 +6,7 @@ const Navbar = () => {
     <div className="navbar p-5 text-white">
   <div className="flex-1 gap-2">
     <a className="text-2xl lg:mr-5">Uber</a>
+    <div className="hidden md:flex">
     <button className='btn btn-sm border-none   hover:bg-[#282828] text-white rounded-none bg-transparent  hover:rounded-full'>Ride</button>
     <button className='btn btn-sm border-none   hover:bg-[#282828] text-white rounded-none bg-transparent  hover:rounded-full'>Drive</button>
     <button className='btn btn-sm border-none   hover:bg-[#282828] text-white rounded-none bg-transparent  hover:rounded-full'>Uber Eats</button>
@@ -17,14 +17,14 @@ const Navbar = () => {
     <li><a className='hover:text-black'>Our Offerings</a></li>
   </ul>
 </details>
- 
+</div>
   </div>
-  <div className="flex-none gap-3">
-  <button className='btn btn-sm border-none   hover:bg-[#282828] text-white rounded-none bg-transparent  hover:rounded-full'>
+  <div className="flex-none gap-2 md:gap-3">
+  <button className='btn btn-sm border-none hidden md:flex  hover:bg-[#282828] text-white rounded-none bg-transparent  hover:rounded-full'>
   <RiBasketballLine className='text-lg'/> EN
     </button>
-  <button className='btn btn-sm border-none   hover:bg-[#282828] text-white rounded-none bg-transparent  hover:rounded-full'>Help</button>
-     <button className='btn btn-sm border-none   hover:bg-[#282828] text-white rounded-none bg-transparent  hover:rounded-full'>Log in</button>
+  <button className='btn btn-sm border-none   hover:bg-[#282828] hidden md:flex text-white rounded-none bg-transparent  hover:rounded-full'>Help</button>
+     <button className='btn btn-sm border-none   hover:bg-[#282828]  text-white rounded-none bg-transparent  hover:rounded-full'>Log in</button>
      <button className='btn btn-sm  border-none bg-[#ffffff]  text-black rounded-full'>Sign up</button>
   </div>
 </div>

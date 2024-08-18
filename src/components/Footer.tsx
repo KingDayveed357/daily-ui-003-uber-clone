@@ -77,8 +77,8 @@ const Footer: React.FC = () => {
             <SocialMediaButton icon={<FaInstagram className="text-lg" />} />
           </div>
           <div className="flex flex-col my-12 md:my-0 gap-6 md:flex-row md:gap-3">
-            <button className="flex gap-2 text-white bg-transparent border-none">
-              <RiBasketballLine className="text-lg my-auto" /> English
+            <button className="flex gap-2  my-auto text-white bg-transparent border-none">
+              <RiBasketballLine className="text-lg " /> English
             </button>
             <button className="flex gap-2 text-white bg-transparent border-none">
               <MdLocationOn className="text-lg my-auto" /> Port Harcourt
